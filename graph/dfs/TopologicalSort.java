@@ -2,12 +2,7 @@ import java.util.*;
 
 public class TopologicalSort {
     public static void main(String[] args){
-        int graph[][]={
-                {1,2},
-                {3},
-                {3},
-                {}
-        };
+        int graph[][]={{},{},{3},{1},{0,1},{0,2}};
 
         int[] visited=new int[graph.length];
         TopologicalSort t=new TopologicalSort();

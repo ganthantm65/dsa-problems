@@ -1,6 +1,6 @@
 package stackandqueue;
 
-import java.util.*;
+import java.util.Stack;
 
 public class CheckParanthesis{
     public static void main(String[] args){
