@@ -1,4 +1,4 @@
-package stackandqueue;
+package squeue;
 import java.util.Stack;
 
 class Queue {
