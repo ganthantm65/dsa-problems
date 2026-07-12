@@ -23,7 +23,6 @@ public class LongestSubarrayOf1 {
     public static void main(String[] args) {
         LongestSubarrayOf1 obj=new LongestSubarrayOf1();
         int[] arr={1,0,1,0,1,1};
-        int k=2;
         int result=obj.longestSubarray(arr);
         System.out.println(result);
     }
