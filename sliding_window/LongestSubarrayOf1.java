@@ -1,5 +1,3 @@
-package sliding_window;
-
 public class LongestSubarrayOf1 {
     public int longestSubarray(int[] nums){
         int l=0,r=0;
