@@ -24,6 +24,6 @@ public class FormNumberSystem {
     }
 
     public static void main(String[] args) {
-        System.out.print(findNthNumber(10));
+        System.out.print(findNthNumber(100));
     }
 }
