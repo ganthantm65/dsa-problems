@@ -19,7 +19,6 @@ public class Algorithm {
         pg.add(new Pair( src,0));
         while(!pg.isEmpty()){
             int node=pg.peek().node;
-            int weight=pg.peek().weight;
             pg.remove();
             for(Pair p:graph.get(node)){
                 if(dist[node]+p.weight<dist[p.node]){
