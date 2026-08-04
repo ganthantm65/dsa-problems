@@ -17,4 +17,10 @@ public class ValidAnagram {
         }
         return true;
     }
+    public static void main(String[] args) {
+        ValidAnagram obj=new ValidAnagram();
+        String s="anagram",t="nagaram";
+        boolean ans=obj.isAnagram(s,t);
+        System.out.println(ans);
+    }
 }

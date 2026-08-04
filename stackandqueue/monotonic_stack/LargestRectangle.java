@@ -27,4 +27,5 @@ public class LargestRectangle {
         LargestRectangle lr=new LargestRectangle();
         System.out.println(lr.largestRectangleArea(arr));
     }
+    
 }
